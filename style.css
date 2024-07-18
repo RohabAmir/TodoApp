@@ -87,7 +87,7 @@ form{
     flex-grow: 1;
     transition: 200ms ease;
 }
-.delete-button{
+.delete-button, .edit-button{
     padding: 3px;
     background: none;
     border: none;
@@ -101,6 +101,12 @@ form{
 }
 .delete-button:hover svg{
     fill: #ff0033;
+}
+.edit-button svg{
+    transition: 200ms ease;
+}
+.edit-button:hover svg{
+    fill: #00FFC4;
 }
 .custom-checkbox{
     border: 2px solid var(--accent-color);
